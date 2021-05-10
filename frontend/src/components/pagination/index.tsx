@@ -15,7 +15,7 @@ const Pagination = ({ page, onPageChange }: Props) => {
               className="page-link"
               onClick={() => onPageChange(page.number - 1)}
             >
-              Previus
+              Previous
             </button>
           </li>
           <li className="page-item disabled">
